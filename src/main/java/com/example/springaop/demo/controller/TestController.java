@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @Author
+ *  tangqiang
+ *
+ */
 @RestController
 @RequestMapping("/test")
 public class TestController {
@@ -20,6 +25,7 @@ public class TestController {
     @RequestMapping("/testaop")
     @TestAopAnnotion
     public String testAop(String test){
+
 
         List list = new ArrayList<>();
 
